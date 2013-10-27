@@ -2,7 +2,7 @@
 class SiteController extends BaseController
 {
 
-    public $layout = '';
+    public $layout = 'base';
     public $result = array('state' => null, 'reason' => null);
     public $parent = null;
     public $sub = null;

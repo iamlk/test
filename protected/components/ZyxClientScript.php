@@ -14,6 +14,7 @@ class ZyxClientScript extends CClientScript
         unset($this->scriptFiles[$position][$url]);
         $scripts = array();
         $i = 0;
+        if(!empty($this->scriptFiles[$position]))
         foreach($this->scriptFiles[$position] as $key=>$val){
             if($order == $i){
                 $scripts[$url] = $url;
@@ -35,6 +36,7 @@ class ZyxClientScript extends CClientScript
         unset($this->cssFiles[$url]);
         $css = array();
         $i = 0;
+        if(!empty($this->cssFiles))
         foreach($this->cssFiles as $key=>$val){
             if($order == $i){
                 $css[$url] = $media;

@@ -1,0 +1,119 @@
+@import "layout.css";
+/*
+Theme Name: jQuery Mobile
+Theme URI: http://jquerymobile.com/
+Description: The 2010 theme for WordPress is stylish, customizable, simple, and readable -- make it yours with a custom menu, header image, and background. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It includes stylesheets for print and the admin Visual Editor, special styles for posts in the "Asides" and "Gallery" categories, and has an optional one-column page template that removes the sidebar.
+Author: Hacked together Doug Neiner from TwentyTen
+Version: 0.1
+*/
+
+
+#sponsors {
+   background-color:#f7f8f8;
+   padding: 10px 0 25px 0;
+   margin-bottom:40px;
+   overflow: hidden;
+   list-style: none;
+}
+#sponsors li {
+   display:block;
+   float:left;
+   width:33%;
+}
+
+#sponsors li a {  
+   padding: 10px 15px;
+   display: block;
+}
+
+#page article h2 {
+font-size: 1.8em !important;
+}
+
+#page article h3 {
+font-size: 1.2em !important;
+}
+
+
+.prettyprint {
+  padding: 10px;
+  overflow-x: auto;
+  background-color: #fbf9ea;
+  border: 1px solid #e2e1d5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin: 0px;
+  font-size: 140%;
+  line-height: 130%
+}
+
+#comments { 
+  border-top: solid 5px #78C829; 
+  margin-top: 30px; 
+  padding-top: 0; 
+  font-size: 14px;
+}
+
+#comments p, #comments a, #comments span, #comments div, #comments ul, #dsq-comments p {
+  font-size: 14px;
+}
+
+#comments ul.children {
+  margin: 5px 10px;
+  border-bottom: solid 1px #78C829; 
+}
+
+#page article h3#comments-title { 
+  margin: 20px 5px;
+  font-size: 140% !important; 
+}
+
+ol.commentlist { list-style: none; }
+.commentlist .comment { 
+  list-style-type: none; 
+  border: 0; 
+  border-top-width: 0; 
+  padding: 8px 3px; 
+  overflow: hidden;
+  margin: 0;
+}
+.commentlist .bypostauthor { border-width: 3px; border-top-width: 2px; background-color: #DEE; }
+.commentlist .pingback { display: none; }
+.commentlist .comment > div {overflow: hidden; }
+.comment-meta { padding: 3px 2px; }
+.comment-author img { padding-right: 8px; float:left; }
+.comment-body { padding-top: 5px; clear: both; }
+.comment .reply, .comment .comment-edit-link { float: right; margin-right: 25px; }
+.comment-author, .comment-author > * { line-height: 100%; vertical-align: top; }
+#commentform label { display: block; }
+#commentform textarea { width: 80%; min-width: 320px; }
+#commentform #submit { 
+  background: #0F212E;
+  border-color: #ccc;
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer; 
+}
+#commentform #submit:hover {
+  background: #163245;
+}
+
+.navigation { padding: 10px 15px; font-size: 125%; overflow: auto; }
+.navigation a { background: #ffffff; }
+.nav-previous { float: left; }
+.nav-next { float: right; }
+
+
+#page article, #article-wrapper article:first-child { border-top: 0; border-bottom: solid 5px #78C729; margin-top: 10px; }
+#article-wrapper article:first-child { margin-top: 10px; }
+
+#page article h2.entry-title, #page article h2.entry-title a {
+  color: #0F212E;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
