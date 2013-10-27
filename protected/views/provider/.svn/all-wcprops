@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider
+END
+_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider/_view.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider/view.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider/_form.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider/update.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider/create.php
+END
+_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider/_search.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider/index.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/provider/admin.php
+END

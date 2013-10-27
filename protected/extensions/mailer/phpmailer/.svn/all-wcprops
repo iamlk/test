@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/2309/trunk/protected/extensions/mailer/phpmailer
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/go4sea/!svn/ver/2309/trunk/protected/extensions/mailer/phpmailer/class.phpmailer.php
+END
+class.pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/go4sea/!svn/ver/1978/trunk/protected/extensions/mailer/phpmailer/class.pop3.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/go4sea/!svn/ver/1978/trunk/protected/extensions/mailer/phpmailer/class.smtp.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/3036/trunk/protected/views/property/propertyList
+END
+_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/go4sea/!svn/ver/2948/trunk/protected/views/property/propertyList/_list.php
+END
+_price_range.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/property/propertyList/_price_range.php
+END
+_new_index.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/go4sea/!svn/ver/3036/trunk/protected/views/property/propertyList/_new_index.php
+END
+_filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/property/propertyList/_filter.php
+END

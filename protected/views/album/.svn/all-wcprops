@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/go4sea/!svn/ver/2925/trunk/protected/views/album
+END
+albumsub.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/2745/trunk/protected/views/album/albumsub.php
+END
+_image_review.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/go4sea/!svn/ver/2925/trunk/protected/views/album/_image_review.php
+END
+lot_manage.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/2745/trunk/protected/views/album/lot_manage.php
+END
+uploadentry.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/2745/trunk/protected/views/album/uploadentry.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/2745/trunk/protected/views/album/index.php
+END
+see_pic.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/2925/trunk/protected/views/album/see_pic.php
+END

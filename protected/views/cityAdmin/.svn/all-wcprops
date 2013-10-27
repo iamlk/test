@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/go4sea/!svn/ver/3010/trunk/protected/views/cityAdmin
+END
+_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/cityAdmin/_view.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/3010/trunk/protected/views/cityAdmin/view.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/cityAdmin/_form.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/cityAdmin/update.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/cityAdmin/create.php
+END
+_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/cityAdmin/_search.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/cityAdmin/index.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/cityAdmin/admin.php
+END

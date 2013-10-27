@@ -1,0 +1,563 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/go4sea/!svn/ver/3078/trunk/protected/models
+END
+FoodAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/FoodAddendum.php
+END
+RestaurantAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/go4sea/!svn/ver/2939/trunk/protected/models/RestaurantAddendum.php
+END
+LoginForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/LoginForm.php
+END
+ProviderLanguage.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ProviderLanguage.php
+END
+BankCard.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/2401/trunk/protected/models/BankCard.php
+END
+AttractionAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/go4sea/!svn/ver/2939/trunk/protected/models/AttractionAddendum.php
+END
+CityAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/2925/trunk/protected/models/CityAddendum.php
+END
+Order.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/go4sea/!svn/ver/2899/trunk/protected/models/Order.php
+END
+Goods.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/go4sea/!svn/ver/2562/trunk/protected/models/Goods.php
+END
+Authidentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/2852/trunk/protected/models/Authidentity.php
+END
+ArticleCity.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/go4sea/!svn/ver/2948/trunk/protected/models/ArticleCity.php
+END
+AlbumGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/AlbumGroup.php
+END
+CityAddendumTemporary.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/CityAddendumTemporary.php
+END
+CustomerBasketDetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/2389/trunk/protected/models/CustomerBasketDetail.php
+END
+ContactForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ContactForm.php
+END
+Article.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/go4sea/!svn/ver/2948/trunk/protected/models/Article.php
+END
+SiteInnerSms.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/2717/trunk/protected/models/SiteInnerSms.php
+END
+Shopcart.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/3078/trunk/protected/models/Shopcart.php
+END
+SiteHistory.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/go4sea/!svn/ver/2852/trunk/protected/models/SiteHistory.php
+END
+Food.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/go4sea/!svn/ver/2899/trunk/protected/models/Food.php
+END
+Restaurant.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/2838/trunk/protected/models/Restaurant.php
+END
+ItineraryDetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ItineraryDetail.php
+END
+AttractionReviewAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/AttractionReviewAddendum.php
+END
+DelicacyReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/2953/trunk/protected/models/DelicacyReview.php
+END
+SiteSuggestions.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/2186/trunk/protected/models/SiteSuggestions.php
+END
+AdminMsgLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/go4sea/!svn/ver/2723/trunk/protected/models/AdminMsgLog.php
+END
+AdminProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/AdminProvider.php
+END
+ContinentAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ContinentAddendum.php
+END
+SystemTranslation.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/SystemTranslation.php
+END
+SiteFavorite.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/2899/trunk/protected/models/SiteFavorite.php
+END
+CountryAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/CountryAddendum.php
+END
+SystemSource.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/SystemSource.php
+END
+Itinerary.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Itinerary.php
+END
+Keywords.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/2340/trunk/protected/models/Keywords.php
+END
+Tourguide.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Tourguide.php
+END
+Attraction.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/2815/trunk/protected/models/Attraction.php
+END
+City.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/go4sea/!svn/ver/2798/trunk/protected/models/City.php
+END
+Recommend.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/go4sea/!svn/ver/3078/trunk/protected/models/Recommend.php
+END
+RestaurantReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/2953/trunk/protected/models/RestaurantReview.php
+END
+DelicacyAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/DelicacyAddendum.php
+END
+ArticleCategoryAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ArticleCategoryAddendum.php
+END
+SiteShare.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/go4sea/!svn/ver/3036/trunk/protected/models/SiteShare.php
+END
+ItineraryReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ItineraryReview.php
+END
+FUN.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/go4sea/!svn/ver/2953/trunk/protected/models/FUN.php
+END
+AlloGroupMenu.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/2899/trunk/protected/models/AlloGroupMenu.php
+END
+AttractionReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/2953/trunk/protected/models/AttractionReview.php
+END
+Business.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Business.php
+END
+G4S.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/go4sea/!svn/ver/2776/trunk/protected/models/G4S.php
+END
+OrderDetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/OrderDetail.php
+END
+CustomerTrend.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/CustomerTrend.php
+END
+Album.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/go4sea/!svn/ver/2106/trunk/protected/models/Album.php
+END
+Customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/3018/trunk/protected/models/Customer.php
+END
+Continent.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Continent.php
+END
+AdminGroupPageCell.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/go4sea/!svn/ver/2899/trunk/protected/models/AdminGroupPageCell.php
+END
+CityRecommend.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/2704/trunk/protected/models/CityRecommend.php
+END
+AlbumImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/2172/trunk/protected/models/AlbumImage.php
+END
+Country.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/go4sea/!svn/ver/3018/trunk/protected/models/Country.php
+END
+AdminGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/2899/trunk/protected/models/AdminGroup.php
+END
+ShopcartDetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/3078/trunk/protected/models/ShopcartDetail.php
+END
+SiteOptionGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/SiteOptionGroup.php
+END
+OrderProduct.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/OrderProduct.php
+END
+Delicacy.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/2421/trunk/protected/models/Delicacy.php
+END
+Banwords.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Banwords.php
+END
+ArticleCategory.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ArticleCategory.php
+END
+StateAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/StateAddendum.php
+END
+AlbumReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/go4sea/!svn/ver/2953/trunk/protected/models/AlbumReview.php
+END
+CustomerAddressBook.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/CustomerAddressBook.php
+END
+Dynamic.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/go4sea/!svn/ver/2953/trunk/protected/models/Dynamic.php
+END
+HomePageImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/2717/trunk/protected/models/HomePageImage.php
+END
+AttractionVisitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/AttractionVisitor.php
+END
+SiteCoolCount.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/SiteCoolCount.php
+END
+Currency.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Currency.php
+END
+Provider.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Provider.php
+END
+ProviderOrderProductStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ProviderOrderProductStatus.php
+END
+CustomerBasket.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/CustomerBasket.php
+END
+SiteOption.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/2427/trunk/protected/models/SiteOption.php
+END
+Landlord.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Landlord.php
+END
+AlloGroupPage.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/2899/trunk/protected/models/AlloGroupPage.php
+END
+CustomerBasketDetailAttribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/CustomerBasketDetailAttribute.php
+END
+AdminGroupPage.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/2899/trunk/protected/models/AdminGroupPage.php
+END
+AdminLoginHistory.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/AdminLoginHistory.php
+END
+ArticleReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/go4sea/!svn/ver/3051/trunk/protected/models/ArticleReview.php
+END
+Question.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/Question.php
+END
+SiteMail.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/go4sea/!svn/ver/2172/trunk/protected/models/SiteMail.php
+END
+ProviderOrderProductStatusHistory.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ProviderOrderProductStatusHistory.php
+END
+Push.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/go4sea/!svn/ver/2436/trunk/protected/models/Push.php
+END
+State.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/State.php
+END
+AdminMsgTmp.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/go4sea/!svn/ver/2694/trunk/protected/models/AdminMsgTmp.php
+END
+SiteInnerSmsUser.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/3051/trunk/protected/models/SiteInnerSmsUser.php
+END
+ArticleAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/ArticleAddendum.php
+END
+QuestionAnswer.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/QuestionAnswer.php
+END
+Admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/go4sea/!svn/ver/2925/trunk/protected/models/Admin.php
+END
+AdminActionLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/2967/trunk/protected/models/AdminActionLog.php
+END

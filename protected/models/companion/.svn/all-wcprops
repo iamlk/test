@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion
+END
+TravelCompanionBuddy.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionBuddy.php
+END
+TravelCompanionProfileVideo.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionProfileVideo.php
+END
+TravelCompanionGuestHistory.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionGuestHistory.php
+END
+TravelCompanionReply.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionReply.php
+END
+TravelCompanionCategory.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionCategory.php
+END
+TravelCompanion.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanion.php
+END
+TravelCompanionPrivateMessage.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionPrivateMessage.php
+END
+TravelCompanionProfile.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionProfile.php
+END
+TravelCompanionApplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionApplication.php
+END
+TravelCompanionBlog.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionBlog.php
+END
+TravelCompanionMessage.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionMessage.php
+END
+TravelCompanionBlogComment.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/companion/TravelCompanionBlogComment.php
+END

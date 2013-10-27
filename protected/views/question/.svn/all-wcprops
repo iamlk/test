@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/question
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/question/view.php
+END
+view-others.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/question/view-others.php
+END
+ask.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/question/ask.php
+END
+view-self.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/question/view-self.php
+END
+ask_list_item.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/question/ask_list_item.php
+END

@@ -1,0 +1,208 @@
+<?php
+/**
+ * BaseController is the customized base controller class.
+ * All controller classes for this application should extend from this base class.
+ */
+class BaseController extends CController
+{
+    /**
+     * @var string the default layout for the controller view. Defaults to '//layouts/default',
+     * meaning using a single column layout. See 'protected/views/layouts/default.php'.
+     */
+    public $layout = '//layouts/default';
+    /**
+     * @var array the breadcrumbs of the current page. The value of this property will
+     * be assigned to {@link CBreadcrumbs::links}. Please refer to {@link CBreadcrumbs::links}
+     * for more details on how to specify this property.
+     */
+    public $breadcrumbs;
+    public $menu = array();
+    /**
+     * 在模板文件里面可以使用$this->params['abc']....
+     */
+    public $params = array();
+    public $isGuest = true;
+
+    /**
+     * @desc 设置全局语言，依次按照“选择->cookie->浏览器->默认”为序指定
+     * @author zyme
+     */
+    public function init()
+    {
+        // get
+        define('U_ID',intval(Yii::app()->user->customer_id));
+		define('CACHE_TIME',60);
+        define('CURRENCY','￥');
+        /** / var
+        if ($languages = Yii::app()->params['languages'] and is_array($languages)) ;
+        else  $languages = array(Yii::app()->sourceLanguage) and Yii::app()->setParams(array('languages' => $languages));
+        if (in_array($language = Yii::app()->request->getParam('language'), $languages))
+        {
+            $cookie = new CHttpCookie('language', $language);
+            $cookie->expire = strtotime('+10 years');
+            Yii::app()->request->cookies['language'] = $cookie;
+        }
+        elseif ($cookie = Yii::app()->request->cookies['language'] and in_array($language = $cookie->value, $languages)) ;
+        elseif (in_array($language = Yii::app()->request->preferredLanguage, $languages)) ;
+        else  $language = Yii::app()->sourceLanguage;
+        */
+        // set
+        Yii::app()->setLanguage('zh_cn');//$language);
+        $this->isGuest = Yii::app()->user->isGuest;
+        $this->setPageTitle('-四海网');
+        $this->breadcrumbs = new Breadcrumbs;
+        // add by leo sitehistory 09/11
+        SiteHistory::addHistory();
+    }
+
+    /**
+     * 指定views目录
+     * @author zyme
+     */
+    final public function getViewPath()
+    {
+        $_path = parent::getViewPath();
+        $_id = preg_replace('/^(\w)(\w*)Controller$/e', 'strtolower($1).$2', get_called_class());
+        foreach ((array )Yii::app()->params['viewPaths'] as $k => $v)
+        {
+            if (preg_match("/^$k$/", $_id))
+            {
+                return preg_replace('%(\\'.DIRECTORY_SEPARATOR.'\w*)$%', DIRECTORY_SEPARATOR.$v.'$1', $_path);
+            }
+        }
+        return $_path;
+    }
+
+        /**
+        * Create url with a GET params forword
+        * @param string $route route string
+        * @param mix $exclude array or string separator with ',', point which keys will not be forward.
+        * @param array $include array(key=>value),insert or replace old value from GET
+        * @param string $https schema to use (e.g. http, https). If empty, the schema used for the current request will be used.
+        * @author vincent.mi@toursforfun.com (2012-2-24)
+        */
+        public function createUrlWithForward($route,$exclude = null , $include = null,$https=''){
+                return $this->_createUrlWithForward($route,false,$exclude,$include,$https);
+        }
+
+        /**
+         * Create full or relative URL with a GET params forward
+         * @param string $route
+         * @param boolean $absoluteUrl
+         * @param mix $exclude
+         * @param array $include
+         * @param string $https schema to use (e.g. http, https). If empty, the schema used for the current request will be used.
+         * @author vincent.mi@toursforfun.com (2012-2-24)
+         */
+        private function _createUrlWithForward($route,$absoluteUrl = false ,$exclude = null , $include = null,$https = ''){
+                $forwardParams = $_GET;
+                if($exclude != null){
+                        if(is_string($exclude)){
+                                $exclude = explode(',',$exclude);
+                        }
+                        $exclude =(array)$exclude;
+                        foreach($exclude as $key){
+                                unset($forwardParams[$key]);
+                        }
+                }
+
+                if( $include != null || $include != ''){
+                        $insertArr = array();
+                        if(is_string($include)){
+                                parse_str($include , $insertArr);
+                        }else{
+                                $insertArr = (array)$include;
+                        }
+                        $forwardParams = array_merge($forwardParams , $insertArr);
+                }
+                if($absoluteUrl == true){
+                        return $this->createAbsoluteUrl($route,$forwardParams,$https);
+                }else{
+                        return $this->createUrl($route,$forwardParams,$https);
+                }
+
+        }
+
+      /**
+         *   rick  add  AUTO LOGIN
+         */
+      private function autoLogin(){
+
+        $cookie=G4S::ReadyCookie(LoginForm::REMMERNAME,LoginForm::LOGINKEY);
+
+         if(isset($cookie)){
+
+            $data = Yii::app()->db->createCommand()
+            ->select('password')
+            ->from('customer')
+            ->where('email=:email', array(':email'=>$cookie))
+            ->queryAll();
+
+            $_POST['LoginForm']['username']=  $cookie;
+
+            $_POST['LoginForm']['password']=  $data[0]['password'];
+
+            if(isset($data[0]['password'])){
+                /*
+                $model = new LoginForm;
+
+                 $model->attributes = $_POST['LoginForm'];
+
+               //  echo $model->login();return;
+
+                 if($model->login())
+                 {
+
+                    $this->redirect($_SERVER['HTTP_REFERER']);
+                 }
+                 */
+                 echo 123;
+              echo   G4S::get_curl('http://www.rick.zyx.com/site/login.html',$_POST, 'POST');
+
+
+            }
+
+         }
+
+      }
+
+   /**
+     * 获取当前用户的 收藏 未支付 站内信数量
+     * leo  09/04
+    */
+
+    public function getOnwerCount()
+    {
+        $data = array();
+        $uid = 0 ;
+        if(!$this->isGuest)$uid = U_ID;
+        if($uid != 0)
+        {
+            $data['sms'] = SiteInnerSmsUser::model()->getUserNotReadySms($uid);
+             $criteria = new CDbCriteria();
+             $criteria->alias = 'site_favorite';
+             $criteria->addCondition('site_favorite.customer_id='.$uid);
+            $data['collect'] = SiteFavorite::model()->count($criteria);
+            $criteria = new CDbCriteria();
+            $criteria->alias = 'order';
+            $criteria->addCondition('order.customer_id='.$uid);
+            $criteria->addCondition('order.order_status='.Order::UNPAID_STATUS);
+            $criteria->addCondition('order.ext_status='.Order::ORDERSHOW);
+            $data['to_pay'] = Order::model()->count($criteria);
+        }
+        $this->renderPartial('/site/_menu_tip',array('data'=>$data));
+    }
+    /**
+     * 局部动态问题
+     * 缓存修复
+     * leo 09/26
+    **/
+    public function getHeader()
+    {
+      return  $this->renderPartial('/layouts/inc.header',array(),true);
+    }
+
+
+
+
+}

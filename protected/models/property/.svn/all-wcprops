@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/go4sea/!svn/ver/3066/trunk/protected/models/property
+END
+PropertyAmenity.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyAmenity.php
+END
+PropertyAmenityAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyAmenityAddendum.php
+END
+PropertyPictureFace.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyPictureFace.php
+END
+PropertyPicture.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyPicture.php
+END
+PropertyExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyExtension.php
+END
+Property.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/go4sea/!svn/ver/2827/trunk/protected/models/property/Property.php
+END
+PropertyPolicy.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyPolicy.php
+END
+PropertyAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/go4sea/!svn/ver/3066/trunk/protected/models/property/PropertyAddendum.php
+END
+PropertyPolicyAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyPolicyAddendum.php
+END
+PropertyReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/go4sea/!svn/ver/2866/trunk/protected/models/property/PropertyReview.php
+END
+PropertyType.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyType.php
+END
+PropertyPrice.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/go4sea/!svn/ver/2745/trunk/protected/models/property/PropertyPrice.php
+END
+PropertyPriceOverride.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/go4sea/!svn/ver/2827/trunk/protected/models/property/PropertyPriceOverride.php
+END
+PropertyTypeAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/property/PropertyTypeAddendum.php
+END

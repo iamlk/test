@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/go4sea/!svn/ver/3057/trunk/protected/components
+END
+Breadcrumbs.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/2732/trunk/protected/components/Breadcrumbs.php
+END
+AdminIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/go4sea/!svn/ver/1978/trunk/protected/components/AdminIdentity.php
+END
+BaseActiveRecord.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/2106/trunk/protected/components/BaseActiveRecord.php
+END
+BaseAssetManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/2592/trunk/protected/components/BaseAssetManager.php
+END
+BusinessIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/2106/trunk/protected/components/BusinessIdentity.php
+END
+BaseDbMessageSource.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/go4sea/!svn/ver/1978/trunk/protected/components/BaseDbMessageSource.php
+END
+BaseWebUser.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/3010/trunk/protected/components/BaseWebUser.php
+END
+ZYXUrlManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/go4sea/!svn/ver/1978/trunk/protected/components/ZYXUrlManager.php
+END
+LandlordIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/2106/trunk/protected/components/LandlordIdentity.php
+END
+CustomerIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/2112/trunk/protected/components/CustomerIdentity.php
+END
+BaseController.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/go4sea/!svn/ver/3057/trunk/protected/components/BaseController.php
+END
+ZyxClientScript.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/go4sea/!svn/ver/1978/trunk/protected/components/ZyxClientScript.php
+END
+TourguideIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/go4sea/!svn/ver/2106/trunk/protected/components/TourguideIdentity.php
+END
+Common.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/1978/trunk/protected/components/Common.php
+END
+UserIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/go4sea/!svn/ver/2106/trunk/protected/components/UserIdentity.php
+END

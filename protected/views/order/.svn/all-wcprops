@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/go4sea/!svn/ver/2838/trunk/protected/views/order
+END
+confirm.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/go4sea/!svn/ver/2838/trunk/protected/views/order/confirm.php
+END
+_order_status.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/go4sea/!svn/ver/2615/trunk/protected/views/order/_order_status.php
+END
+buyer_order_detail.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/go4sea/!svn/ver/2615/trunk/protected/views/order/buyer_order_detail.php
+END
+seller_order_detail.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/go4sea/!svn/ver/2615/trunk/protected/views/order/seller_order_detail.php
+END

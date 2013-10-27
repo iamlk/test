@@ -1,0 +1,151 @@
+#start
+#Rick
+#动态表内容显示
+#2013.9.3 已处理2013.9.3
+ALTER TABLE `dynamic`
+ADD COLUMN `is_active`  tinyint(2) NOT NULL COMMENT '0不显示/1显示' AFTER `action`;
+#end####################
+
+
+#start
+#Leo  
+#add  table 
+#2013/9/3/16:13 已处理2013.9.4
+CREATE TABLE `site_sugestions` (
+`_id`  int(10) UNSIGNED NOT NULL AUTO_INCREMENT ,
+`content`  text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`ip`  char(16) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`created`  char(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+PRIMARY KEY (`_id`)
+)
+ENGINE=InnoDB
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
+AUTO_INCREMENT=1
+ROW_FORMAT=COMPACT
+;
+#end######################
+
+#start
+#Fedora 
+#统计表（收藏和分享） 
+#2013/9/4/ 已处理2013.9.4
+ALTER TABLE `site_cool_count` MODIFY COLUMN `hash_key` VARCHAR(45) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT 'md5(object_type.object_id)',
+ADD INDEX `Index_hash`(`hash_key`);
+#end######################
+
+
+#start
+#RIck
+#第三方登录字段
+#2013/9/4 已处理 2013.9.5
+ALTER TABLE `customer`
+ADD COLUMN `open_id`  varchar(70) NOT NULL COMMENT '第三方ID' AFTER `is_active`,
+ADD COLUMN `token`  varchar(100) NOT NULL COMMENT '获取ID参数' AFTER `open_id`,
+ADD COLUMN `expire`  int(10) NOT NULL COMMENT '有效期' AFTER `token`,
+ADD COLUMN `realpassword`  varchar(30) NULL AFTER `expire`;
+#end
+
+#start
+#RIck
+#银行卡字段修改
+#2013/9/6 已处理 2013.9.5
+ALTER TABLE `bank_card`
+MODIFY COLUMN `customer_id`  int(10) UNSIGNED NOT NULL AFTER `created`;
+ALTER TABLE `bank_card` ADD CONSTRAINT `FK_bankcard` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+#end
+
+
+#start
+#RIck
+#用户表是否显示用户真实姓名字段添加
+#2013/9/10 已处理2013.9.10
+ALTER TABLE `customer`
+CHANGE COLUMN `disply_born` `display_born`  tinyint(2) NULL DEFAULT NULL AFTER `born`,
+MODIFY COLUMN `document_type`  varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '是否显示真实姓名' AFTER `document_num`,
+ADD COLUMN `display_realname`  tinyint(2) NOT NULL AFTER `real_name`;
+#end
+
+#start
+#RIck
+#攻略是否删除(0表示未删除，1表示删除)
+#2013/9/12 已处理2013.9.13
+ALTER TABLE `article` ADD `is_delete` TINYINT( 1 ) NOT NULL DEFAULT '0'
+#end
+
+
+#start
+#RIck
+#添加内容推荐数据表
+#2013/9/17  已处理2013.09.17
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `recommend`
+-- ----------------------------
+DROP TABLE IF EXISTS `recommend`;
+CREATE TABLE `recommend` (
+  `recommend_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(300) NOT NULL COMMENT '内容',
+  `parent_id` int(10) unsigned NOT NULL COMMENT '父ID',
+  `type` tinyint(1) DEFAULT NULL,
+  `hot` tinyint(1) DEFAULT NULL,
+  `order` tinyint(5) DEFAULT NULL,
+  `font_color` varchar(10) DEFAULT NULL,
+  `path` varchar(100) DEFAULT NULL,
+  `is_active` tinyint(1) NOT NULL,
+  `created` int(10) DEFAULT NULL,
+  `updated` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`recommend_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+#end
+
+
+
+#start
+#RIck
+#类别添加
+#2013/9/17 已处理 9.18
+ALTER TABLE `recommend`
+ADD COLUMN `class`  varchar(50) NULL AFTER `font_color`;
+#end
+
+
+#start
+#RIck
+#字体 顶级分类添加
+#2013/9/22 已处理 9.22
+ALTER TABLE `recommend`
+ADD COLUMN `top_id`  int(10) UNSIGNED NOT NULL AFTER `name`,
+ADD COLUMN `font_weight`  varchar(50) NULL AFTER `order`;
+#end
+
+
+#start
+#RIck
+#字体 用户城市字段
+#2013/9/25 已处理
+ALTER TABLE `customer`
+CHANGE COLUMN `country` `country_id`  int(10) NULL DEFAULT NULL AFTER `sex`,
+CHANGE COLUMN `province` `state_id`  int(10) NULL DEFAULT NULL AFTER `country_id`,
+CHANGE COLUMN `city` `city_id`  int(10) NULL DEFAULT NULL AFTER `state_id`;
+#end
+
+#start
+#RIck
+#字体 相册回复是否已读状态
+#2013/9/26 已处理 9.27
+ALTER TABLE `album_review`
+DROP COLUMN `is_read`,
+ADD COLUMN `is_read`  tinyint(1) UNSIGNED NOT NULL COMMENT '评论是否已读' AFTER `content`;
+#end
+
+#start
+#RIck
+#字体 攻略回复是否已读状态
+#2013/9/26 已处理 9.27
+ALTER TABLE `article_review` ADD `is_read` TINYINT( 1 ) NOT NULL DEFAULT '0'
+#end
+
+
+
+

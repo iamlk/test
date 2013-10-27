@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/go4sea/!svn/ver/2106/trunk/protected/views/comment
+END
+send_comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/comment/send_comment.php
+END
+recive_comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/comment/recive_comment.php
+END
+_buyer_send_comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/go4sea/!svn/ver/2106/trunk/protected/views/comment/_buyer_send_comment.php
+END
+_seller_send_comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/go4sea/!svn/ver/2106/trunk/protected/views/comment/_seller_send_comment.php
+END
+comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/comment/comment.php
+END
+_buyer_recive_comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/go4sea/!svn/ver/2106/trunk/protected/views/comment/_buyer_recive_comment.php
+END
+_seller_recive_comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/go4sea/!svn/ver/2106/trunk/protected/views/comment/_seller_recive_comment.php
+END
+buyer_comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/comment/buyer_comment.php
+END
+seller_comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/comment/seller_comment.php
+END

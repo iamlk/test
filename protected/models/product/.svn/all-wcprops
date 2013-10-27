@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/go4sea/!svn/ver/2866/trunk/protected/models/product
+END
+ProductEndCity.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductEndCity.php
+END
+ProductReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/go4sea/!svn/ver/2866/trunk/protected/models/product/ProductReview.php
+END
+ProductComment.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductComment.php
+END
+ProductOneDayPrice.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductOneDayPrice.php
+END
+ProductOneDayPriceOverride.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductOneDayPriceOverride.php
+END
+ProductNote.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductNote.php
+END
+ProductAttraction.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductAttraction.php
+END
+ProductHotel.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductHotel.php
+END
+ProductMultiDayPrice.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductMultiDayPrice.php
+END
+ProductMultiDayPriceOverride.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductMultiDayPriceOverride.php
+END
+ProductHotelAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductHotelAddendum.php
+END
+ProductHotelImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductHotelImage.php
+END
+Product.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/go4sea/!svn/ver/2672/trunk/protected/models/product/Product.php
+END
+ProductType.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductType.php
+END
+ProductAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductAddendum.php
+END
+ProductImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductImage.php
+END
+ProductDescription.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductDescription.php
+END
+ProductTypeAddendum.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductTypeAddendum.php
+END
+ProductVisitingCity.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductVisitingCity.php
+END
+ProductStartCity.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/go4sea/!svn/ver/1978/trunk/protected/models/product/ProductStartCity.php
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/go4sea/!svn/ver/2592/trunk/protected/views/travelCompanion
+END
+my_reply_list_item.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/travelCompanion/my_reply_list_item.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/travelCompanion/view.php
+END
+list.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/go4sea/!svn/ver/2592/trunk/protected/views/travelCompanion/list.php
+END
+companion_list_item.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/travelCompanion/companion_list_item.php
+END
+my_application_list_item.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/travelCompanion/my_application_list_item.php
+END
+my_companion_list_item.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/travelCompanion/my_companion_list_item.php
+END
+pop_create.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/go4sea/!svn/ver/2592/trunk/protected/views/travelCompanion/pop_create.php
+END
+companion_reply_list_item.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/travelCompanion/companion_reply_list_item.php
+END
+my_companion.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/go4sea/!svn/ver/1978/trunk/protected/views/travelCompanion/my_companion.php
+END
